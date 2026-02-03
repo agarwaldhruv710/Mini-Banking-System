@@ -80,10 +80,4 @@ src/
   main.jsx, index.css
 ```
 
-## Submission Checklist
 
-- [x] GitHub repository
-- [ ] Live deployment URL (add after deploying)
-- [x] README.md
-- [ ] 2-minute demo video
-- [ ] Minimum 3 git commits
