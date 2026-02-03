@@ -1,0 +1,58 @@
+.create-account form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.create-account label {
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.create-account .required {
+  color: var(--error);
+}
+
+.create-account input[type="text"],
+.create-account input[type="number"] {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: var(--surface);
+}
+
+.create-account input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.create-account .checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.create-account .checkbox-label input {
+  width: 1.1rem;
+  height: 1.1rem;
+  accent-color: var(--primary);
+}
+
+.create-account button {
+  margin-top: 0.25rem;
+  padding: 0.65rem 1rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.create-account button:hover {
+  background: var(--primary-hover);
+}
