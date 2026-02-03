@@ -4,7 +4,7 @@ A working banking web app with account creation, deposit, withdraw, transfer (wi
 
 ## Live Deployment
 
-- **Deployment URL**: [[Deploy this repo to Vercel/Netlify and add your URL here](https://mini-banking-system-xxxx.vercel.app)]
+- **Deployment URL**: [[Deploy this repo to Vercel/Netlify and add your URL here](https://mini-banking-system-tau.vercel.app)]
 - **GitHub Repository**: [https://github.com/agarwaldhruv710/Mini-Banking-System]
 
 ## Features
